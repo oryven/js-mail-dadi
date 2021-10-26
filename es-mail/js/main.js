@@ -15,13 +15,18 @@ console.log(userMail);
 
 const arrMail = ["pinco@hotmail.it","pallo@hotmail.it","pippo@hotmail.it","pluto@hotmail.it"];
 
+// creare un ciclio for per stabilire la lunghezza dell'array
+
+    for (i = 0; i < arrMail.length; i++){
 // scrivere condizioni
 
-if ( userMail == arrMail){
-    mail.innerHTML = "La tua mail è presente.";
+    if ( userMail == arrMail){
+        mail.innerHTML = "La tua mail è presente.";
 
-}else if ( userMail != arrMail)
-{
-    mail.innerHTML = "La tua mail è presente.";
+    }else if ( userMail != arrMail){
+        mail.innerHTML = "La tua mail non è presente.";
 }
+
+}
+
 
